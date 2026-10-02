@@ -14,3 +14,10 @@ bash scripts/install-agent-reach.sh
 
 Then check status with `agent-reach doctor`. Twitter, Reddit and XHS need login cookies
 (see the Agent Reach docs).
+
+## Karpathy guidelines
+
+`.claude/skills/karpathy-guidelines/` holds the coding guidelines from
+[andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) (MIT): think before
+coding, keep it simple, make surgical changes, and define verifiable goals. `EXAMPLES.md` shows
+before/after examples of each.
