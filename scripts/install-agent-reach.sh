@@ -4,7 +4,7 @@
 set -euo pipefail
 
 python3 -m venv ~/.agent-reach-venv
-~/.agent-reach-venv/bin/pip install -q https://github.com/Panniantong/agent-reach/archive/main.zip
+~/.agent-reach-venv/bin/pip install -q "git+https://github.com/Panniantong/Agent-Reach.git@main"
 export PATH="$HOME/.agent-reach-venv/bin:$PATH"
 
 # Installs gh/yt-dlp/mcporter/Exa plus bili-cli, rdt-cli, twitter-cli, etc.
